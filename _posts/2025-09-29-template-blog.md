@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Template Blog"
+title: "Template Blog"
 ---
 
 # Welcome
