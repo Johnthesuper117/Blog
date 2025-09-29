@@ -1,7 +1,22 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-github-metadata"
-gem "jekyll-octicons"
-gem "jemoji"
+gem 'bundler', '~> 2.7', '>= 2.7.2'
+gem 'jekyll', github: 'jekyll/jekyll', ref: 'refs/pull/9248/head'
+gem 'jekyll-include-cache', group: :jekyll_plugins
+gem 'jekyll-feed'
+gem 'jekyll-seo-tag', '~> 2.8'
+gem 'jekyll-sitemap'
+gem 'jekyll-octicons'
+gem 'jemoji'
+gem 'faraday', '~> 2.7', '>= 2.7.11'
+gem 'faraday-retry', '~> 2.3'
+gem 'webrick', '~> 1.7'
+gem 'jekyll-github-metadata'
+gem 'jekyll-coffeescript'
+gem 'jekyll-gist'
+gem 'jekyll-paginate'
+gem 'jekyll-relative-links'
+gem 'jekyll-optional-front-matter'
+gem 'jekyll-readme-index'
+gem 'jekyll-default-layout'
+gem 'jekyll-titles-from-headings'
